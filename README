@@ -1,0 +1,81 @@
+Program name: Personal
+Name: William Gimson
+Date: 05-27-2011
+
+
+Description: The Peronal program consists of four classes. An abstract Employee class with two abstract methods, an HourlyEmployee class, a SalariedEmployee class, and an EmployeeRecords class which contains the main method.
+
+Instructions: When run, the program will prompt the user with a list of the following possible commands..
+
+n - Create new employee
+p - Compute a weekly paycheck
+r - Increase the wages of employess
+q - Quit
+
+The program is not case-sensitive. The user may enter 'n' to create a new employee in the database, 'p' to compute the weekly paycheck of all employees in teh database, 'r' to increase the wages of all employees in the database, and 'q' to quit.
+
+Examples: Commands: n - New employee
+		    p - Compute paycheck
+	            r - Raise wages
+		    q - Quit
+          n
+
+          Please enter the name of new employee: Kramer, Heinrich
+
+          Hourly (h) or salaried (s): h
+
+          Enter hourly wage: 12
+
+	   
+          Commands: n - New employee
+		    p - Compute paycheck
+	            r - Raise wages
+		    q - Quit
+          n
+	   
+          Please enter the name of new employee: Sprenger, Jacob
+
+          Hourly (h) or salaried (s): s
+ 
+          Enter annual salary: 30000
+
+
+          Commands: n - New employee
+		    p - Compute paycheck
+	            r - Raise wages
+		    q - Quit
+		    n
+          p
+
+          Enter the number of hours worked by Sprenger, Jacob.
+	  10
+	  $150
+
+	  Enter the number of hours worked by Kramer, Heinrich.
+	  10
+	  $100
+
+
+          Commands: n - New employee
+		    p - Compute paycheck
+	            r - Raise wages
+		    q - Quit
+		    n
+          r
+
+          Enter percentage increase: 10
+          
+          Wages
+          -----
+          Kramer, Heinrich          $11 / per hour
+          Sprenger, Jacob           $33,000 / per year
+
+
+          Commands: n - New employee
+		    p - Compute paycheck
+	            r - Raise wages
+		    q - Quit
+		    n
+          q
+          
+          Good bye!
